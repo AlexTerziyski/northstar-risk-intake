@@ -204,8 +204,13 @@ export function RiskIntakeForm() {
 
     setIsSubmitting(true);
 
-    // Simulate submission delay
-    await new Promise((resolve) => setTimeout(resolve, 1500));
+    await fetch("/api/submit-risk", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(formData),
+    });
 
     setIsSubmitting(false);
     setIsSubmitted(true);
