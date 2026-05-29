@@ -75,11 +75,19 @@ export async function POST(req: Request) {
                     riskScore,
                     severity,
                     owner,
-                    "Not Started",
                     data.dateDiscovered,
                     data.supportingEvidence,
                     data.escalationContact || "",
                     "Vercel Intake Form",
+                    "",              // Treatment Option
+                    "Not Started",   // Treatment Status
+                    "",              // Controls Selected
+                    "",              // Residual Risk Score
+                    "",              // Review Date
+                    "Planned",       // Control Effectiveness
+                    riskScore,       // Previous Score
+                    "Stable",        // Risk Velocity
+                    ""               // Notes / Evidence
                 ]],
             },
         })

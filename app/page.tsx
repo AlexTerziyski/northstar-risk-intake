@@ -36,20 +36,25 @@ const DEPARTMENTS = [
 ];
 
 const ASSET_TYPES = [
-  { value: "temenos", label: "Temenos Transact / Core banking and portfolio management" },
+  { value: "temenos", label: "Temenos Transact / Core banking system" },
   { value: "salesforce", label: "Salesforce CRM" },
-  { value: "m365", label: "Microsoft 365" },
+  { value: "m365", label: "Microsoft 365 (Email & productivity)" },
   { value: "sharepoint", label: "SharePoint Online" },
   { value: "fileserver", label: "On-premises Windows file server" },
   { value: "vpn", label: "Cisco AnyConnect VPN" },
-  { value: "backup", label: "Backup system" },
-  { value: "vendor", label: "Third-party vendor system" },
+  { value: "backup", label: "Backup and recovery systems" },
   { value: "network", label: "Network infrastructure" },
+  { value: "endpoint", label: "Employee workstations / laptops" },
+  { value: "identity", label: "Identity & access management (IAM)" },
   { value: "logging", label: "Security logging / monitoring" },
-  { value: "policy", label: "Policy / process" },
+  { value: "patching", label: "Patch management system/process" },
+  { value: "vendor", label: "Third-party vendor system" },
+  { value: "database", label: "Client data / internal databases" },
+  { value: "application", label: "Internal business applications" },
+  { value: "policy", label: "Policy / governance process" },
+  { value: "people", label: "Employees / human factors" },
   { value: "other", label: "Other" },
 ];
-
 const RISK_CATEGORIES = [
   "Cybersecurity",
   "Operational",
