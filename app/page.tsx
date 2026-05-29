@@ -291,7 +291,7 @@ export function RiskIntakeForm() {
             Risk Intake Portal
           </h1>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Cybersecurity Risk Management Program — D1: Risk Intake &amp; Identification Process
+            Cybersecurity Risk Management Program: Risk Intake &amp; Identification Process
           </p>
         </header>
 
@@ -720,7 +720,7 @@ export function RiskIntakeForm() {
               <CardHeader className="pb-2">
                 <CardTitle className="text-sm font-medium flex items-center gap-2">
                   <Info className="w-4 h-4" />
-                  Backend Mapping (D2)
+                  Backend Mapping
                 </CardTitle>
                 <CardDescription className="text-xs">
                   Fields added automatically after submission
