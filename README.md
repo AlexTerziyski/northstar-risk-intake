@@ -7,7 +7,7 @@
 
 A web-based Governance, Risk, and Compliance (GRC) platform developed for the CYBR 1201 CISO Challenge at Vancouver Community College.
 
-[Link here](https://northstar-risk-intake.vercel.app/)
+[Link to the project and app here](https://northstar-risk-intake.vercel.app/)
 
 ## Overview
 
@@ -16,6 +16,16 @@ The NorthStar Risk Intake System serves as the primary risk intake and managemen
 Built using Next.js and deployed on Vercel, the platform automates the collection of risk information and integrates directly with Google Sheets through the Google Sheets API, creating a centralized risk register that supports ongoing risk assessment, treatment, monitoring, and reporting activities.
 
 The objective of the project is to transform risk management from a static spreadsheet exercise into a scalable and auditable enterprise process that aligns with modern Governance, Risk, and Compliance (GRC) practices.
+
+## Application Preview
+
+<p align="center">
+  <img src="RiskIntakePortal.png" alt="Risk Intake Portal" width="800">
+</p>
+
+<p align="center">
+  <em>Risk submission portal integrated with the Google Sheets risk register.</em>
+</p>
 
 ---
 
