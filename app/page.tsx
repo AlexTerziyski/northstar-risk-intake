@@ -227,8 +227,7 @@ export function RiskIntakeForm() {
               </div>
               <CardTitle className="text-2xl">Risk Submitted Successfully</CardTitle>
               <CardDescription className="text-base">
-                Your risk has been submitted and recorded in the NorthStar risk register.{" "}
-                <span className="font-medium text-foreground">{formData.submitterEmail}</span>
+                Your risk has been submitted and recorded in the NorthStar risk register
               </CardDescription>
             </CardHeader>
             <CardContent className="space-y-4">
@@ -237,7 +236,7 @@ export function RiskIntakeForm() {
                   <strong>Next Steps:</strong>
                 </p>
                 <ul className="text-sm text-muted-foreground list-disc list-inside space-y-1">
-                  <li>A Risk ID will be assigned and sent to you via email</li>
+                  <li>A Risk ID will be assigned in the risk register</li>
                   <li>The risk will be reviewed according to SLA timelines</li>
                   <li>A risk owner will be assigned based on category and asset type</li>
                 </ul>
