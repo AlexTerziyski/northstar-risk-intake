@@ -1,11 +1,13 @@
 # NorthStar Risk Intake System
-Assignment 01: Risk Assessment 
-Alexander Terziyski & Blair Donohue
-CYBR 1201 
-Instructors: Irina Manolescu
-Wednesday, May 27th, 2026
+* Assignment 01: Risk Assessment 
+* Alexander Terziyski & Blair Donohue
+* CYBR 1201 
+* Instructors: Irina Manolescu
+* Wednesday, May 27th, 2026
 
 A web-based Governance, Risk, and Compliance (GRC) platform developed for the CYBR 1201 CISO Challenge at Vancouver Community College.
+
+[Link here](https://northstar-risk-intake.vercel.app/)
 
 ## Overview
 
