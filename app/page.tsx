@@ -227,7 +227,7 @@ export function RiskIntakeForm() {
               </div>
               <CardTitle className="text-2xl">Risk Submitted Successfully</CardTitle>
               <CardDescription className="text-base">
-                Your risk has been submitted for review. You will receive confirmation at{" "}
+                Your risk has been submitted and recorded in the NorthStar risk register.{" "}
                 <span className="font-medium text-foreground">{formData.submitterEmail}</span>
               </CardDescription>
             </CardHeader>
