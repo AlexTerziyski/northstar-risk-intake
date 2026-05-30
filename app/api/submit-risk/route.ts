@@ -80,14 +80,14 @@ export async function POST(req: Request) {
                     data.escalationContact || "",
                     "Vercel Intake Form",
                     "", // Treatment Option
-                    "Not Started",
+                    "Not Started", // Treatment Status
                     "", // Controls Selected
                     "", // Residual Risk Score
                     "", // Review Date
-                    "Planned",
-                    "", // Previous Score
+                    "Planned", // Control Effectiveness
+                    "", // Previous Score - manual/baseline
                     "", // Risk Velocity - formula in sheet
-                    ""  // Notes / Evidence
+                    "" // Notes / Evidence
                 ]],
             },
         })
