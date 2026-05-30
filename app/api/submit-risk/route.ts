@@ -72,22 +72,22 @@ export async function POST(req: Request) {
                     data.likelihoodJustification,
                     data.impact,
                     data.impactJustification,
-                    riskScore,
-                    severity,
+                    "", // Risk Score - formula in sheet
+                    "", // Severity - formula in sheet
                     owner,
                     data.dateDiscovered,
                     data.supportingEvidence,
                     data.escalationContact || "",
                     "Vercel Intake Form",
-                    "",              // Treatment Option
-                    "Not Started",   // Treatment Status
-                    "",              // Controls Selected
-                    "",              // Residual Risk Score
-                    "",              // Review Date
-                    "Planned",       // Control Effectiveness
-                    riskScore,       // Previous Score
-                    "Stable",        // Risk Velocity
-                    ""               // Notes / Evidence
+                    "", // Treatment Option
+                    "Not Started",
+                    "", // Controls Selected
+                    "", // Residual Risk Score
+                    "", // Review Date
+                    "Planned",
+                    "", // Previous Score
+                    "", // Risk Velocity - formula in sheet
+                    ""  // Notes / Evidence
                 ]],
             },
         })
